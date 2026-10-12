@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Organic Food</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+          <svg
+            class="brand-leaves"
+            viewBox="0 0 40 40"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 35c-1-12 5-23 17-29 1 14-4 25-17 29Z"
+              fill="#2f8f46"
+            />
+            <path
+              d="M19 35C6 32 1 23 3 10c12 3 19 11 16 25Z"
+              fill="#55aa4f"
+            />
+            <path
+              d="M19 37c1-10 6-18 14-25M18 36C16 26 11 20 6 16"
+              fill="none"
+              stroke="#f4fff1"
+              stroke-linecap="round"
+              stroke-width="1.5"
+            />
+          </svg>
+          <span>Organic Food</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trending">Trending</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+
+            <button type="button-sm" class="btn">
+              <i class="bi bi-search"> </i>
+              search
+            </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="main" id="home">
+      <div class="row g-0">
+        <div class="col-6 hero-content">
+          <div class="hero-copy">
+            <p>Nature has always cared for us!</p>
+            <button type="button" class="btn btn-primary">More tips</button>
+          </div>
+        </div>
+        <div
+          class="col-6 hero-image"
+          role="img"
+          aria-label="A colorful selection of fresh vegetables"
+        ></div>
+      </div>
+    </section>
+    <section class="new" id="trending">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2>What's Trending</h2>
+          <h6 class="trending-subtitle">Be healthy with organic food</h6>
+        </div>
+        <div class="product-grid">
+          <div class="product-grid-item">
+            <article class="card product-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=800&q=85"
+                class="card-img-top"
+                alt="Fresh red and green apples"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Organic Apples</h3>
+                <p class="card-text">
+                  Crisp, naturally sweet apples picked fresh from the orchard.
+                </p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </article>
+          </div>
+          <div class="product-grid-item">
+            <article class="card product-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=85"
+                class="card-img-top"
+                alt="A colorful selection of fresh vegetables"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Fresh Vegetables</h3>
+                <p class="card-text">
+                  A colorful mix of wholesome, seasonal vegetables.
+                </p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </article>
+          </div>
+          <div class="product-grid-item">
+            <article class="card product-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1464965911861-746a04b4bca6?auto=format&fit=crop&w=800&q=85"
+                class="card-img-top"
+                alt="Fresh ripe strawberries"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Organic Strawberries</h3>
+                <p class="card-text">
+                  Juicy, sweet strawberries, perfect for a healthy snack.
+                </p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </article>
+          </div>
+          <div class="product-grid-item">
+            <article class="card product-card h-100">
+              <img
+                src="https://images.unsplash.com/photo-1527325678964-54921661f888?auto=format&fit=crop&w=800&q=85"
+                class="card-img-top"
+                alt="Fresh pink dragon fruit"
+                loading="lazy"
+              />
+              <div class="card-body">
+                <h3 class="card-title">Organic Dragon Fruit</h3>
+                <p class="card-text">
+                  Mildly sweet dragon fruit with bright pink skin and fresh,
+                  speckled flesh.
+                </p>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2>Contact Us</h2>
+          <h6 class="trending-subtitle">We'd love to hear from you!</h6>
+        </div>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" required />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea
+              class="form-control"
+              id="message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+    <section class="footer">
+      <div class="container text-center">
+        <p>&copy; 2026 Organic Food. All rights reserved.</p>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      document.querySelectorAll(".navbar .nav-link").forEach((link) => {
+        link.addEventListener("click", () => {
+          document
+            .querySelectorAll(".navbar .nav-link")
+            .forEach((navLink) => {
+              navLink.classList.remove("active");
+              navLink.removeAttribute("aria-current");
+            });
+          link.classList.add("active");
+          link.setAttribute("aria-current", "page");
+        });
+      });
+    </script>
+  </body>
+</html>
